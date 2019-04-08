@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right,white,#fdfdfd );
+    
+}
+
+ #nm {
+    background-image: linear-gradient(to bottom right,#fff, #9dc4d6);
+ }
+  
+  section:nth-child(even) {
+    background-image: linear-gradient(to bottom right,#fff, silver);
+  }
+
+  section{
+      padding-top: 10px;
+      padding-bottom: 20px;
+  }
+
+/* Header */
+
+nav ul li{
+    padding: 7px;
+}
+
+ .dropdown:hover .dropdown-menu{
+    display:block;
+    margin-top: 0;
+} 
+
+.banner {
+    width:100%;
+    height: 300px;
+   }
+
+/* About US */
+
+.heading {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.content {
+ text-align: left;
+ font-size: 17px;
+}
+
+#map{
+    height: 500px;
+    width:100%;
+}
+
+#map3{
+    height: 500px;
+    width:100%;
+}
+
+#map1{
+    height: 500px;
+    width:100%;
+}
+
+#map2{
+    height: 500px;
+    width:100%;
+}
+
+#map4{
+    height: 500px;
+    width:100%;
+}
+
+.btn-secondary {
+    color: #fff;
+    border-color: #6c757d;
+    border-radius: 9px;
+    
+}
+
+
+.form-heading {
+    color: #19406b;
+    font-size: 30px;
+    text-align: center;
+
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.form-heading1 {
+    color: #19406b;
+    font-size: 30px;
+    text-align: center;
+
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+/* Footer*/
+
+.my-footer {
+    background-color: #f8f9fa!important;
+    color: lightslategrey;
+    margin-top: 0px;
+    
+
+}
