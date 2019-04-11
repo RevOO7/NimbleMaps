@@ -1,9 +1,7 @@
 # Space for importing required libraries
-from sklearn.datasets import make_classification, make_circles #libraries to generate data
 import matplotlib.pyplot as plt # importing library to plot
-from sklearn.linear_model import LogisticRegression #importing Logistic Regression 
+#from sklearn.linear_model import LogisticRegression #importing Logistic Regression 
 import numpy as np #numpy library for data manipulation and plotting
-from  sklearn.neural_network import MLPClassifier #to use neural net
 import pandas as pd
 # =============================================================================
 #  np.random.seed(4)
@@ -30,11 +28,12 @@ scaler.fit(X)
 X = (scaler.transform(X))
 
 f, ax = plt.subplots(figsize=(8, 8)) #plotting data
-ax.scatter(X[:,1],X[:,0],c=y , s=50,cmap="RdBu")
+ax.scatter(X[:,1],X[:,0],c=y , s=50,cmap="RdYlGn")
 ax.get_figure()
 
 
 # =============================================================================
+# from  sklearn.neural_network import MLPClassifier #to use neural net
 # architecture = (64,64,32,2) ###(A num_layers sized tuple with number of hidden neurons as each element)
 # activationf = 'relu'
 # learning_rate=0.01
